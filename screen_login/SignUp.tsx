@@ -37,7 +37,7 @@ export default function SignUp(props:SignUpProps):JSX.Element{
             {/* 1. contents 영역 */}
             <View style={style.contents}>
 
-                {/* 자물쇠 이미지 영역 */}
+                {/*  이미지 영역 */}
                 <View>
                     <Image source={require('../Images/logo_symbol.png')} style={{width:60, height:80, marginTop:30}} resizeMode='contain'></Image>
                 </View>
